@@ -15,15 +15,14 @@ function PageSwitch(point: number, setPoint: any) {
               <p>
                 Hello World
               </p>
-              <button onClick={() => {
-                setPoint(1);
-              }}>asd</button>
             </div>
-            
           )}
           image={(
             <img alt='asd' src={mapImage} />
           )}
+          setPoint={setPoint}
+          destination={[1, 2]}
+          directions={['Left', 'Right']}
         />
         )
     case 1:
@@ -37,6 +36,9 @@ function PageSwitch(point: number, setPoint: any) {
           image={(
             <img alt='asd' src={image1} />
           )}
+          setPoint={setPoint}
+          destination={[1, 2]}
+          directions={['Left', 'Right']}
         />
         )
   }
