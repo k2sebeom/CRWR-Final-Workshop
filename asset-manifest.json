@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.a0d70c7a.js",
-    "static/js/787.fdcc58c3.chunk.js": "/static/js/787.fdcc58c3.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.a0d70c7a.js.map": "/static/js/main.a0d70c7a.js.map",
-    "787.fdcc58c3.chunk.js.map": "/static/js/787.fdcc58c3.chunk.js.map"
+    "main.css": "/CRWR-Final-Workshop/static/css/main.073c9b0a.css",
+    "main.js": "/CRWR-Final-Workshop/static/js/main.a8b9cadd.js",
+    "static/js/787.fdcc58c3.chunk.js": "/CRWR-Final-Workshop/static/js/787.fdcc58c3.chunk.js",
+    "static/media/logo.svg": "/CRWR-Final-Workshop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CRWR-Final-Workshop/index.html",
+    "main.073c9b0a.css.map": "/CRWR-Final-Workshop/static/css/main.073c9b0a.css.map",
+    "main.a8b9cadd.js.map": "/CRWR-Final-Workshop/static/js/main.a8b9cadd.js.map",
+    "787.fdcc58c3.chunk.js.map": "/CRWR-Final-Workshop/static/js/787.fdcc58c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.a0d70c7a.js"
+    "static/js/main.a8b9cadd.js"
   ]
 }
