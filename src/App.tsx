@@ -13,7 +13,7 @@ function PageSwitch(point: number, setPoint: any) {
             <div>
               <h1>Journey of Life</h1>
               <p>
-                Hello World
+                Welcome traveler! You have heard that the forest called Tappan Square is so beautiful and decided to visit the place. What you see now is a map around the Oberlin area. You cannot see the map again, so remember what it looks like and plan ahead. Once you set foot on the way to Tappan Square, there is no second chance and no turning back. Choose wisely when you face a crossroad. Good luck!
               </p>
             </div>
           )}
@@ -21,8 +21,8 @@ function PageSwitch(point: number, setPoint: any) {
             <img alt='asd' src={mapImage} />
           )}
           setPoint={setPoint}
-          destination={[1, 2]}
-          directions={['Left', 'Right']}
+          destination={[1]}
+          directions={["Let's Go"]}
         />
         )
     case 1:

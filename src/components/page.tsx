@@ -6,7 +6,10 @@ function Page({ content, image, setPoint, destination, directions }: any) {
   return (
     <div className="container">
       <div className="content">
-        {content}
+        <div className="content-wrapper">
+          {content}
+        </div>
+        
 
         <div>
           {
@@ -14,7 +17,7 @@ function Page({ content, image, setPoint, destination, directions }: any) {
               <button key={`to-btn-${idx}`} onClick={() => {
                 console.log(e); 
                 setPoint(e);
-              }}>To {directions[idx]}</button>
+              }}>{directions[idx]}</button>
             ))
           }
         </div>
