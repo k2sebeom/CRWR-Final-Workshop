@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './App.css';
 import mapImage from './assets/map.png';
-import image1 from './assets/1.jpeg';
-import image2 from './assets/2.jpeg';
-import image3 from './assets/3.jpeg';
-import image4 from './assets/4.jpeg';
-import image5 from './assets/5.jpeg';
-import image6 from './assets/6.jpeg';
-import image7 from './assets/7.jpeg';
-import image8 from './assets/8.jpeg';
-import pond from './assets/coi.jpeg';
+import image1 from './assets/1.png';
+import image2 from './assets/2.png';
+import image3 from './assets/3.png';
+import image4 from './assets/4.png';
+import image5 from './assets/5.png';
+import image6 from './assets/6.png';
+import image7 from './assets/7.png';
+import image8 from './assets/8.png';
+import pond from './assets/coi.png';
 import Page from './components/page';
 
 function PageSwitch(point: number, setPoint: any) {
@@ -77,7 +77,7 @@ function PageSwitch(point: number, setPoint: any) {
             <img alt='asd' src={image3} />
           )}
           setPoint={setPoint}
-          destination={[8, 6]}
+          destination={[8, 7]}
           directions={['Left', 'Right']}
         />
         )
@@ -134,6 +134,7 @@ function PageSwitch(point: number, setPoint: any) {
         <Page 
           content={(
             <p>
+              Chris is the vice president of one of the biggest companies in the United States. However, becoming a leading member of a big company in the States was never his original dream. He was born in a small town in Japan and graduated college as an electrical engineering major. He got his job at a decent-sized company in Japan and married his wife to form a happy family. However, in his mid-30s, he was given a chance to finish an MBA course at Wharton school. It seemed like a great chance, but it was a big challenge since he had to give up a well-paid job and had a family to support. He made up his mind to take the risk and move to Pennsylvania with his family. After completing his MBA, he could get a job at a company in the bay area. At first, he had a hard time adjusting to a culture completely different from that he grew up in for most of his life, but promotion after promotion, he could get used to the life in the United States, and after 15 years, he could become the vice president of the company.
             </p>
           )}
           image={(
@@ -149,6 +150,7 @@ function PageSwitch(point: number, setPoint: any) {
         <Page 
           content={(
             <p>
+              Rio had always wanted to get a job at a big-tech company. He was a software engineer at a startup, but he always dreamed bigger. He submitted his resume to Amazon and finally got his position as a technical consultant. However, his life in a big company was so different from what he had imagined. A job as a technical consultant was nothing like being a software engineer. He always had to work with clients who complained about the service and could not complain about the clients as they were the source of the revenue. Every night he had to work hard to prepare for session he had to host on the day after, and the senior consultants gave tons of workload on him. After a year, he decided to leave the company. After quitting the job as a technical consultant, he went back to a small company in the gaming industry and worked as a security engineer. Even though the salary was smaller than the big-tech company, Rio seemed to be more satisfied with his life.
             </p>
           )}
           image={(

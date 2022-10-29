@@ -9,7 +9,6 @@ function Page({ content, image, setPoint, destination, directions }: any) {
         <div className="content-wrapper">
           {content}
         </div>
-        
 
         <div>
           {
