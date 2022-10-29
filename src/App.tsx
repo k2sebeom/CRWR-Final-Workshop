@@ -90,7 +90,7 @@ function PageSwitch(point: number, setPoint: any) {
             </p>
           )}
           image={(
-            <img alt='asd' src={image3} />
+            <img alt='asd' src={image4} />
           )}
           setPoint={setPoint}
           destination={[9, 2]}
@@ -106,7 +106,7 @@ function PageSwitch(point: number, setPoint: any) {
             </p>
           )}
           image={(
-            <img alt='asd' src={image3} />
+            <img alt='asd' src={image5} />
           )}
           setPoint={setPoint}
           destination={[4, 3]}
@@ -122,7 +122,7 @@ function PageSwitch(point: number, setPoint: any) {
             </p>
           )}
           image={(
-            <img alt='asd' src={image3} />
+            <img alt='asd' src={image6} />
           )}
           setPoint={setPoint}
           destination={[9, 2]}
@@ -137,7 +137,7 @@ function PageSwitch(point: number, setPoint: any) {
             </p>
           )}
           image={(
-            <img alt='asd' src={image3} />
+            <img alt='asd' src={image7} />
           )}
           setPoint={setPoint}
           destination={[5, 4]}
@@ -152,7 +152,7 @@ function PageSwitch(point: number, setPoint: any) {
             </p>
           )}
           image={(
-            <img alt='asd' src={image3} />
+            <img alt='asd' src={image8} />
           )}
           setPoint={setPoint}
           destination={[6, 3]}
