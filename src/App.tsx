@@ -86,7 +86,23 @@ function PageSwitch(point: number, setPoint: any) {
         <Page 
           content={(
             <p>
-              Mary was preparing for her trip to Los Angeles. The way to the airport from her home was about an hour ride, so she decided to call an Uber about two hours before the boarding time. When she finished packing and decided to call an Uber, she was surprised to see that there was no drivers nearby her location. She decided to wait, but even after an hour, she could not find a driver who would take her to the airport. She decided to call every friends she knew who had a car. One of her friends said that he was out of town. The other friend said that she was visiting her husband's parents. She decided to walk all the way up to the bus station and take a bus to the airport. By the time she arrived at the airport, the plane she originally booked had already taken off. She had to take a cheaper and smaller plane that the airline booked for her as an alternative. When she arrived at Los Angeles, she found a surprising news that the plane that she was supposed to take had an engine issue so that it had to make an emergency landing in the middle of the desert. 
+              Kevin was a boy who was a big fan of robotics. He spent most of his time building strange robots in a garage, and for many of his science fair projects were the robots he built. His college essay, of course, was filled with stories of his passion about robotics and engineering. When he went to college, he took several courses related to engineering, and a large number of those courses were about mathematics. One day, he was in the advanced calculs class, and suddenly, he could come up with a brand new idea of solving a very old problem of finding a fastest way from one point to another. He wrote down the solutions, tested it out using his computer, and showed it to his professor. The math professor and Kevin decided to bring it to undergraduate research fair. Inspired by this experience, Kevin decided to change his major to mathematics, and now he's studying mathematics in a graduate school.  
+            </p>
+          )}
+          image={(
+            <img alt='asd' src={image3} />
+          )}
+          setPoint={setPoint}
+          destination={[1, 2]}
+          directions={['Left', 'Right']}
+        />
+        )
+    case 5:
+      return (
+        <Page 
+          content={(
+            <p>
+              Kevin was a boy who was a big fan of robotics. He spent most of his time building strange robots in a garage, and for many of his science fair projects were the robots he built. His college essay, of course, was filled with stories of his passion about robotics and engineering. When he went to college, he took several courses related to engineering, and a large number of those courses were about mathematics. One day, he was in the advanced calculs class, and suddenly, he could come up with a brand new idea of solving a very old problem of finding a fastest way from one point to another. He wrote down the solutions, tested it out using his computer, and showed it to his professor. The math professor and Kevin decided to bring it to undergraduate research fair. Inspired by this experience, Kevin decided to change his major to mathematics, and now he's studying mathematics in a graduate school.  
             </p>
           )}
           image={(
