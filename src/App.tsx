@@ -9,7 +9,7 @@ import image5 from './assets/5.jpeg';
 import image6 from './assets/6.jpeg';
 import image7 from './assets/7.jpeg';
 import image8 from './assets/8.jpeg';
-import image9 from './assets/9.jpeg';
+import pond from './assets/coi.jpeg';
 import Page from './components/page';
 
 function PageSwitch(point: number, setPoint: any) {
@@ -45,7 +45,7 @@ function PageSwitch(point: number, setPoint: any) {
             <img alt='asd' src={image1} />
           )}
           setPoint={setPoint}
-          destination={[2, 3]}
+          destination={[3, 7]}
           directions={['Left', 'Right']}
         />
         )
@@ -61,8 +61,8 @@ function PageSwitch(point: number, setPoint: any) {
             <img alt='asd' src={image2} />
           )}
           setPoint={setPoint}
-          destination={[1, 2]}
-          directions={['Left', 'Right']}
+          destination={[5, 8]}
+          directions={['Front', 'Right']}
         />
         )
     case 3:
@@ -77,7 +77,7 @@ function PageSwitch(point: number, setPoint: any) {
             <img alt='asd' src={image3} />
           )}
           setPoint={setPoint}
-          destination={[1, 2]}
+          destination={[8, 6]}
           directions={['Left', 'Right']}
         />
         )
@@ -93,8 +93,8 @@ function PageSwitch(point: number, setPoint: any) {
             <img alt='asd' src={image3} />
           )}
           setPoint={setPoint}
-          destination={[1, 2]}
-          directions={['Left', 'Right']}
+          destination={[9, 2]}
+          directions={['Left', 'Front']}
         />
         )
     case 5:
@@ -109,8 +109,73 @@ function PageSwitch(point: number, setPoint: any) {
             <img alt='asd' src={image3} />
           )}
           setPoint={setPoint}
-          destination={[1, 2]}
+          destination={[4, 3]}
           directions={['Left', 'Right']}
+        />
+        )
+    case 6:
+      return (
+        <Page 
+          content={(
+            <p>
+              Ellen would identify himself as a very risk averse person. He has never done any investment whatsoever, and he thought that the best way to achieve wealth is by saving. He did not spend money on unnecessary purchases and only spent money when he went to the grocery once a month. One day, one of his friends called him that she was starting a new business and asked Ellen if he could buy some of the stock in a form of investment. He first rejected as he did not like the idea of spending money on something with an uncertain future, but the freind was quite relentless. Finally, Ellen decided to buy 5000 dollars worth of stock, and after than, he completely forgot about the money since he did not belive in fortune. After several years, the freind called him again asking what he has done with the stock, and Ellen answered that he was holding all of the stock he had bought. The friend was surprised and told him that it is at least 100 times more worth than the time he purchased it as the friend's company is getting bigger and bigger.
+            </p>
+          )}
+          image={(
+            <img alt='asd' src={image3} />
+          )}
+          setPoint={setPoint}
+          destination={[9, 2]}
+          directions={['Front', 'Right']}
+        />
+        )
+    case 7:
+      return (
+        <Page 
+          content={(
+            <p>
+            </p>
+          )}
+          image={(
+            <img alt='asd' src={image3} />
+          )}
+          setPoint={setPoint}
+          destination={[5, 4]}
+          directions={['Left', 'Right']}
+        />
+        )
+    case 8:
+      return (
+        <Page 
+          content={(
+            <p>
+            </p>
+          )}
+          image={(
+            <img alt='asd' src={image3} />
+          )}
+          setPoint={setPoint}
+          destination={[6, 3]}
+          directions={['Left', 'Right']}
+        />
+        )
+    case 9:
+      return (
+        <Page 
+          content={(
+            <div>
+              <h1>Congratulations!</h1>
+              <p>
+                You made it! Well, you did not make it to the Tappan Square, but on the way to the forest, you found yourself standing next to a beautiful pond. Mesmerized by the beauty of the pond, you forgot everything about the forest and walked straight to savor the scenary. Your journey did not turn out to be as intended, but you reached something worthwhile to find.
+              </p>
+            </div>
+          )}
+          image={(
+            <img alt='asd' src={pond} />
+          )}
+          setPoint={setPoint}
+          destination={[]}
+          directions={[]}
         />
         )
             
@@ -118,7 +183,7 @@ function PageSwitch(point: number, setPoint: any) {
 }
 
 function App() {
-  const [point, setPoint] = useState<number>(2);
+  const [point, setPoint] = useState<number>(3);
 
   return (
     <div className="container">
