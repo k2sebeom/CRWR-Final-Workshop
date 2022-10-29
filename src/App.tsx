@@ -183,7 +183,7 @@ function PageSwitch(point: number, setPoint: any) {
 }
 
 function App() {
-  const [point, setPoint] = useState<number>(3);
+  const [point, setPoint] = useState<number>(0);
 
   return (
     <div className="container">
