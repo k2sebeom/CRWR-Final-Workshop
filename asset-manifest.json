@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/CRWR-Final-Workshop/static/css/main.5ac8dd32.css",
-    "main.js": "/CRWR-Final-Workshop/static/js/main.660c52a7.js",
+    "main.css": "/CRWR-Final-Workshop/static/css/main.bc25d356.css",
+    "main.js": "/CRWR-Final-Workshop/static/js/main.b489746c.js",
     "static/js/787.fdcc58c3.chunk.js": "/CRWR-Final-Workshop/static/js/787.fdcc58c3.chunk.js",
+    "static/media/6.jpeg": "/CRWR-Final-Workshop/static/media/6.2daa03c5a451cdc105bf.jpeg",
+    "static/media/8.jpeg": "/CRWR-Final-Workshop/static/media/8.4650ffcd29b5d192f0a0.jpeg",
     "static/media/coi.jpeg": "/CRWR-Final-Workshop/static/media/coi.14b8a3ebfc3d9074030f.jpeg",
     "static/media/2.jpeg": "/CRWR-Final-Workshop/static/media/2.78f53e067d132638f74b.jpeg",
     "static/media/1.jpeg": "/CRWR-Final-Workshop/static/media/1.c8023586fbd18f87028d.jpeg",
+    "static/media/7.jpeg": "/CRWR-Final-Workshop/static/media/7.eb8194163dffbe47a8c2.jpeg",
+    "static/media/5.jpeg": "/CRWR-Final-Workshop/static/media/5.dcc4e77bbd436ed8643c.jpeg",
+    "static/media/4.jpeg": "/CRWR-Final-Workshop/static/media/4.ca64f539a0d7021da25e.jpeg",
     "static/media/3.jpeg": "/CRWR-Final-Workshop/static/media/3.50a217100ae0029ba7a0.jpeg",
     "static/media/map.png": "/CRWR-Final-Workshop/static/media/map.4a5338435ae05df26b0c.png",
     "index.html": "/CRWR-Final-Workshop/index.html",
-    "main.5ac8dd32.css.map": "/CRWR-Final-Workshop/static/css/main.5ac8dd32.css.map",
-    "main.660c52a7.js.map": "/CRWR-Final-Workshop/static/js/main.660c52a7.js.map",
+    "main.bc25d356.css.map": "/CRWR-Final-Workshop/static/css/main.bc25d356.css.map",
+    "main.b489746c.js.map": "/CRWR-Final-Workshop/static/js/main.b489746c.js.map",
     "787.fdcc58c3.chunk.js.map": "/CRWR-Final-Workshop/static/js/787.fdcc58c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ac8dd32.css",
-    "static/js/main.660c52a7.js"
+    "static/css/main.bc25d356.css",
+    "static/js/main.b489746c.js"
   ]
 }
