@@ -70,7 +70,23 @@ function PageSwitch(point: number, setPoint: any) {
         <Page 
           content={(
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Mary was preparing for her trip to Los Angeles. The way to the airport from her home was about an hour ride, so she decided to call an Uber about two hours before the boarding time. When she finished packing and decided to call an Uber, she was surprised to see that there was no drivers nearby her location. She decided to wait, but even after an hour, she could not find a driver who would take her to the airport. She decided to call every friends she knew who had a car. One of her friends said that he was out of town. The other friend said that she was visiting her husband's parents. She decided to walk all the way up to the bus station and take a bus to the airport. By the time she arrived at the airport, the plane she originally booked had already taken off. She had to take a cheaper and smaller plane that the airline booked for her as an alternative. When she arrived at Los Angeles, she found a surprising news that the plane that she was supposed to take had an engine issue so that it had to make an emergency landing in the middle of the desert. 
+            </p>
+          )}
+          image={(
+            <img alt='asd' src={image3} />
+          )}
+          setPoint={setPoint}
+          destination={[1, 2]}
+          directions={['Left', 'Right']}
+        />
+        )
+    case 4:
+      return (
+        <Page 
+          content={(
+            <p>
+              Mary was preparing for her trip to Los Angeles. The way to the airport from her home was about an hour ride, so she decided to call an Uber about two hours before the boarding time. When she finished packing and decided to call an Uber, she was surprised to see that there was no drivers nearby her location. She decided to wait, but even after an hour, she could not find a driver who would take her to the airport. She decided to call every friends she knew who had a car. One of her friends said that he was out of town. The other friend said that she was visiting her husband's parents. She decided to walk all the way up to the bus station and take a bus to the airport. By the time she arrived at the airport, the plane she originally booked had already taken off. She had to take a cheaper and smaller plane that the airline booked for her as an alternative. When she arrived at Los Angeles, she found a surprising news that the plane that she was supposed to take had an engine issue so that it had to make an emergency landing in the middle of the desert. 
             </p>
           )}
           image={(
